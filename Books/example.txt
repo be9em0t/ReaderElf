@@ -1,0 +1,5 @@
+Edge cases and next improvements (recommended)
+
+Voice cloning: If using cloning, add a --ref-audio option and ensure user consent/warnings.
+Error handling: add better diagnostic messages and fallbacks (save WAV file if streaming fails).
+Tests: Add unit tests for text_cleaner (happy path + hyphenation + header stripping).
